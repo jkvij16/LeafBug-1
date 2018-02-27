@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VERIFY OTP"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:id="@+id/t"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:id="@+id/e"
+        android:layout_below="@id/t"
+        android:hint="Enter Mobile Number"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend OTP"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="180dp"
+        android:gravity="center"
+        android:id="@+id/button"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter OTP"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/e"
+
+        android:textAlignment="center"
+
+        android:id="@+id/e2"/>
+    <!--  <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/e2"
+          android:text="Verify"
+          android:id="@+id/b"
+          android:layout_marginLeft="80dp"
+          />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c"
+        android:layout_below="@+id/e"/>
+</RelativeLayout>

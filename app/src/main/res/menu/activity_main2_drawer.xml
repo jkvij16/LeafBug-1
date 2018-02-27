@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_idscan"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="ID scan" />
+
+
+
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_Notification"
+            android:icon="@drawable/notifi"
+            android:title="Notification"
+            />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings"
+            />
+
+        <item
+            android:id="@+id/nav_sign"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Sign in"
+            />
+
+
+
+            <item
+                android:id="@+id/nav_customer"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Customer Service" />
+
+
+</group>
+</menu>
