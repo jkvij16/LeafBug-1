@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "857716895227",
+    "firebase_url": "https://leafbug-2a663.firebaseio.com",
+    "project_id": "leafbug-2a663",
+    "storage_bucket": "leafbug-2a663.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857716895227:android:bcdd60148bb0d85f",
+        "android_client_info": {
+          "package_name": "kochi.vaisakh.com.leafbug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857716895227-n671fvamv4hsm8g069lmpkue10m53ac6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kochi.vaisakh.com.leafbug",
+            "certificate_hash": "01383f1d952cb6ad087436141746753c003e2f9e"
+          }
+        },
+        {
+          "client_id": "857716895227-l6dbde7n0ul3j9tov78lf7ej7mh4sstm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtcqqr69aNrAGfY4VpjSU4BRDI3RLot-M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857716895227-l6dbde7n0ul3j9tov78lf7ej7mh4sstm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

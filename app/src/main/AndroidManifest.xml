@@ -40,6 +40,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".OTPActivity"></activity>
+
+        <receiver
+            android:name=".SmsReceive"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>

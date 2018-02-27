@@ -55,7 +55,8 @@ public class LeafBug extends AppCompatActivity
         llReg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent i=new Intent(LeafBug.this,SignUpActivity.class);
+                startActivity(i);
             }
         });
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
